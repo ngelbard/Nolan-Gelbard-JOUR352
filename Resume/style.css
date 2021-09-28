@@ -1,15 +1,20 @@
+/*Styles for my Resume*/
+
+/*Description of me*/
 p {
   color: #444;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
 }
 
+/*Body of my Resume*/
 body {
   color: #444;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
 }
 
+/*Banner name at the top of the Resume*/
 h1 {
   color: #33485E;
   font-size: 3.5em;
@@ -17,6 +22,7 @@ h1 {
   text-align: center;
 }
 
+/*Section Titles*/
 h2 {
   color: white;
   background-color: #33485E;
@@ -26,6 +32,7 @@ h2 {
   font-weight: 400;
 }
 
+/*Job Titles*/
 h3 {
   color: #444;
   font-family: 'Open Sans', sans-serif;
@@ -33,6 +40,7 @@ h3 {
   font-weight: 600;
 }
 
+/*Job Organization*/
 h4 {
   color: #444;
   font-family: 'Open Sans', sans-serif;
@@ -40,6 +48,7 @@ h4 {
   font-weight: 400;
 }
 
+/*Job Dates*/
 h5 {
   color: #444;
   font-family: 'Open Sans', sans-serif;
@@ -48,13 +57,15 @@ h5 {
   font-style: italic;
 }
 
+/*Contact Information and Descriptions*/
 ul {
   color: #444;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
 }
 
-title {
+/*My Title*/
+strong {
   text-transform: uppercase;
   font-size: 2em;
   color: #33485E;

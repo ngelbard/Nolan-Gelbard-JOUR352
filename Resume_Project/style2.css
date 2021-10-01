@@ -1,13 +1,22 @@
 /*Styles for my Resume*/
 
+#Container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
 /*Contact Information*/
 .Menu {
   color: #444;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.5em;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   text-align: center;
+}
+
+.Menu .Contact {
+  display: inline-block;
 }
 
 /*Description of me*/
@@ -86,12 +95,29 @@ body {
 ul {
   color: #444;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.5em;
+}
+
+#Degrees {
+  margin: 5px 0px 0px 0px;
+}
+
+#Do {
+  margin: 5px 0px 0px 0px;
 }
 
 /*My Title*/
-strong {
+#Title {
   text-transform: uppercase;
-  font-size: 2em;
   color: #33485E;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+
+/*My Mission Statement*/
+.Top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }

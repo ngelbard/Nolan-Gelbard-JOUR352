@@ -1,11 +1,13 @@
 /*Styles for my Resume*/
 
+/*Full Page adjustments*/
 #Container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
 }
+
 /*Contact Information*/
 .Menu {
   color: #444;
@@ -19,13 +21,6 @@
   display: inline-block;
 }
 
-/*Description of me*/
-p {
-  color: #444;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
-}
-
 /*Body of my Resume*/
 body {
   color: #444;
@@ -33,7 +28,7 @@ body {
   font-size: 1em;
 }
 
-/*Banner name at the top of the Resume*/
+/*Banner of my name at the top of the Resume*/
 #Name {
   color: #33485E;
   font-size: 3.5em;
@@ -56,6 +51,7 @@ body {
   margin: 20px 0px 10px 0px;
   width: 70%;
   min-width: 300px;
+  padding-left: 10px;
 }
 
 /*Job Titles*/
@@ -83,12 +79,19 @@ body {
   font-style: italic;
   margin: 3px 0px 0px 0px;
 }
-
+/*Descriptions*/
 .Description {
   color: #444;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
   margin: 10px 0px 0px 0px;
+}
+
+p {
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  margin: 0 auto;
 }
 
 /*Education and Skills Descriptions*/

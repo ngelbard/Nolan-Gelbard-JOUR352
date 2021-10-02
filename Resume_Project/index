@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+   <link href="style2.css" rel="stylesheet">
+   <title>Nolan Gelbard's Resume</title>
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700" rel="stylesheet">
+</head>
+<body>
+
+<div id="Container">
+
+  <!-- I built this myself!-->
+
+  <div id="Name">Nolan Gelbard</div>
+  <!-- <img src="https://pbs.twimg.com/profile_images/1171578580071047174/y8aJv0Jg.jpg" alt="Nolan Gelbard Headshot" width="300"> -->
+
+  <ul class="Menu">
+      <li class="Contact">ngelbard@umd.edu</li>
+      <li class="Contact"><a href="https://www.linkedin.com/in/nolan-gelbard-46b4a0163/">LinkedIn</a></li>
+      <li class="Contact"><a href="https://twitter.com/nolangelbard">Twitter</a></li>
+      <li class="Contact"><a href="https://github.com/ngelbard">GitHub</a></li>
+  </ul>
+
+  <div id="Title">Student - University of Maryland, College Park</div>
+
+  <div class="Top">I am a senior majoring in Broadcast Journalism. I am taking classes focusing on Television Reporting and Production, Sports Producing, and Interactive Design and Development. These classes help me gain real world experience to take with me when I graduate.</div>
+
+  <div class="SectionHeader">Experience:</div>
+    <div class="JobTitle">Reporter/Anchor/Production Assistant</div>
+      <div class="Organization">The Left Bench</div>
+        <div class="Date">September 2017-December 2019</div>
+          <div class="Description">
+            <p>Created packages for a variety of University of Maryland sports, including basketball, volleyball, and lacrosse. This includes filming, editing, doing stand-ups, and voice overs.</p>
+            <p>Anchored multiple sports shows for The Left Bench TV.</p>
+            <p>Worked as a floor director, teleprompter operator, and technical director for The Left Bench TV.</p>
+          </div>
+    <div class="JobTitle">Broadcaster</div>
+      <div class="Organization">WMUCSports</div>
+        <div class="Date">August 2017-December 2017</div>
+          <div class="Description">
+            <p>Called play-by-play and gave color commentary for the University of Maryland Volleyball team.</p>
+            <p>Managed all broadcasting equipment and live streaming maintenance for home volleyball matches.</p>
+          </div>
+    <div class="JobTitle">Broadcaster</div>
+      <div class="Organization">Eagle Business Radio</div>
+        <div class="Date">September 2013-May 2017</div>
+          <div class="Description">
+            <p>Worked as a producer and technical director for the radio team, setting up broadcast equipment so that the coverage could be heard live and made sure the quality was good.</p>
+            <p>Was the lead broadcaster and called play-by-play for my high school’s sporting events throughout the year.</p>
+          </div>
+  <div class="SectionHeader">Education:</div>
+    <ul id="Degrees">
+      <li>Bachelor of Arts, Journalism: Broadcast News, University of Maryland, College Park, Expected 2022
+    </ul>
+  <div class="SectionHeader">Skills:</div>
+    <ul id="Do">
+      <li>Proficient in video editing with Adobe Premiere Pro.</li>
+      <li>Experienced in data analysis and visualization with Microsoft Excel.</li>
+      <li>Experienced with a broadcast camera and DSLR camera.</li>
+    </ul>
+
+
+</div>
+
+
+
+</body>
+</html>

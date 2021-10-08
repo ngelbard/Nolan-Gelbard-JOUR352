@@ -1,16 +1,52 @@
 .bi {
   font-size:3em;
 }
+
+.navbar-brand {
+  font-family: 'Special Elite', cursive;
+}
+
 .col-md-4 {
   text-align: center;
 }
-.col-xs {
+
+.col {
   text-align: center;
+}
+
+.readnow {
+  margin-top: 25px;
+}
+
+.btn {
+  font-family: 'Special Elite', cursive;
 }
 img {
   width: 100%;
   max-width: 500px;
 }
-.btn btn-dark-1 {
-  margin-top: 25px;
+
+h1 {
+  font-family: 'Special Elite', cursive;
+}
+
+h2 {
+  font-family: 'Special Elite', cursive;
+}
+
+h3 {
+  font-family: 'Special Elite', cursive;
+}
+
+.row {
+  padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+  h2 {
+    padding-top: 50px;
+  }
+  .btn {
+    background-color: teal !important;
+  }
 }

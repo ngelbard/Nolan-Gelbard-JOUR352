@@ -14,24 +14,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
-<!--Inline CSS for the Icons-->
-  <style>
-  .bi {
-    font-size:3em;
-  }
-  .col-md-4 {
-    text-align: center;
-  }
-  .col-sm {
-    text-align: center;
-  }
-  img {
-    width: 100%;
-    max-width: 500px;
-  }
-  </style>
-
+  <link href="bootstyle.css" rel="stylesheet">
 </head>
 <body>
 
@@ -81,40 +64,36 @@
 
 <!--These are the stories, icons, and descriptions -->
 
-  <div class="container">
+  <div class="container-fluid">
       <div class="row">
-          <div class="col-sm">
+          <div class="col-xs">
             <h2>Man at Skate Park Wears Headphones</h2>
             <p>A man in a green hoodie was found yesterday at his local skate park. He was wearing a hat and headphones.</p>
-            <img src="https://images.unsplash.com/photo-1572776685600-aca8c3456337?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80"
+            <img src="https://images.unsplash.com/photo-1572776685600-aca8c3456337?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1502&q=80"</img>
+            <button type="button" class="btn btn-dark-1">Read Now</button>
           </div>
-          <div class="col-sm">
+          <div class="col-xs">
             <h2>Man Does an Ollie on a Skateboard</h2>
             <p>Someone was in a very empty skate park and did an ollie. He was wearing pants, a jacket, and hat.</p>
-            <img src="https://images.unsplash.com/photo-1621544402532-78c290378588?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+            <img src="https://images.unsplash.com/photo-1621544402532-78c290378588?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"</img>
+            <button type="button" class="btn btn-dark-1">Read Now</button>
           </div>
       </div>
-  </div>
 
-  <div class="container">
-        <div class="row">
-              <div class="col-md-4">
-              <i class="bi bi-read"></i>
-                      <h3>Read</h3>
-                      <p>Read stories from our archive</p>
-              </div>
-              <div class="col-md-4">
-              <i class="bi bi-contact"></i>
-                      <h3>Contact</h3>
-                      <p>Ask us a question</p>
-              </div>
-              <div class="col-md-4">
-              <i class="bi bi-follow"></i>
-                      <h3>Follow</h3>
-                      <p>Follow us on Facebook and Twitter</p>
-              </div>
-        </div>
-  </div>
+      <div class="row">
+          <div class="col-md-4">
+              <h3>Read</h3>
+              <p>Read stories from our archive</p>
+          </div>
+          <div class="col-md-4">
+              <h3>Contact</h3>
+              <p>Ask us a question</p>
+          </div>
+          <div class="col-md-4">
+                <h3>Follow</h3>
+                <p>Follow us on Facebook and Twitter</p>
+          </div>
+      </div>
 
 
 

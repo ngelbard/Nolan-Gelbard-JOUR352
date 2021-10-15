@@ -36,3 +36,19 @@ h1 {
 .col {
     position: relative;
 }
+
+
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+text-align: center;
+}
+
+#headline {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  font-style: oblique;
+  text-align: center;
+}

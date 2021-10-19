@@ -1,14 +1,19 @@
+/*Styles for my the midterm review*/
+
+/*Main Essay*/
 #content {
   max-width: 900px;
   margin: auto;
 }
 
+/*Page Topper*/
 .masthead {
   position: relative;
   text-align: center;
   width: 100%;
 }
 
+/*Text for Page Topper*/
 .text-block {
   position: absolute;
   top: 50%;
@@ -19,11 +24,13 @@
   padding: 20px 20px 0px 20px;
 }
 
+/*Font for Page topper*/
 .display-5 {
   text-transform: uppercase;
   font-family: 'Special Elite', cursive;
 }
 
+/*Side Images for Page Topper*/
 .img-umd {
   width: 100%;
   max-width: 90px;
@@ -38,6 +45,7 @@
     position: relative;
 }
 
+/*Read more for article links*/
 h2 {
   text-align: center;
   background-color: black;
@@ -47,6 +55,7 @@ h2 {
   font-family: 'Special Elite', cursive;
 }
 
+/*The Byline*/
 #byline {
 font-family: Helvetica, sans-serif;
 font-size: 14px;
@@ -54,6 +63,7 @@ font-style: italic;
 text-align: center;
 }
 
+/*The Headline*/
 #headline {
   font-family: 'Special Elite', Helvetica, sans-serif;
   font-size: 40px;
@@ -61,6 +71,7 @@ text-align: center;
   text-align: center;
 }
 
+/*Main Article words*/
 p {
   font-family: Georgia, sans-serif;
   font-size: 13px;
@@ -70,14 +81,17 @@ p {
   text-align: center;
 }
 
+/*Images for the article*/
 .image {
   padding: 10px;
 }
 
+/*Description for moving image*/
 h5 {
   text-align: center;
 }
 
+/*Blockquote*/
 blockquote {
   font-size: 20px;
   color: #161674;

@@ -1,11 +1,12 @@
 #content {
-  margin: 0 auto;
-  width: 900px;
+  max-width: 900px;
+  margin: auto;
 }
 
 .masthead {
   position: relative;
   text-align: center;
+  width: 100%;
 }
 
 .text-block {
@@ -54,9 +55,9 @@ text-align: center;
 }
 
 #headline {
-  font-family: Helvetica, sans-serif;
-  font-size: 30px;
-  font-style: oblique;
+  font-family: 'Special Elite', Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -67,4 +68,23 @@ p {
 
 .col-md-4 {
   text-align: center;
+}
+
+.image {
+  padding: 10px;
+}
+
+h5 {
+  text-align: center;
+}
+
+blockquote {
+  font-size: 20px;
+  color: #161674;
+  font-style: italic;
+  text-align: center;
+  min-width: 600px;
+  width: 65%;
+  margin: 0 auto !important;
+
 }

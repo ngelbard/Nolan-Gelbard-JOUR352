@@ -1,0 +1,171 @@
+/*Page Topper*/
+.masthead {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+/*Text for Page Topper*/
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/*Font for Page topper*/
+.display-5 {
+  text-transform: uppercase;
+  font-family: serif;
+  font-size: 90px !important;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+}
+
+.display-6 {
+  text-transform: uppercase;
+  font-family: serif;
+}
+
+#foreground{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color: black;
+    opacity:0.4;
+    pointer-events:none;
+}
+
+hr {
+  width: 100%;
+  height: 5px !important;
+  opacity: 1.0 !important;
+  margin-top: 0;
+  padding-top: 0px;
+}
+
+.avatar-section {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    border-radius: 50%;
+    border: 10px solid white;
+    top: -200px;
+    position: relative;
+}
+
+#gradient {
+  height: 100%;
+  background-color: #e3d164; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#fce775, #7a751d);
+}
+
+.bi {
+  font-size:3em;
+}
+.col-md-4 {
+  text-align: center;
+}
+.contact {
+  max-width: 400px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  top: -200px;
+}
+
+.git:link {
+  color: black;
+  background-color: transparent;
+}
+.git:hover {
+  color: purple;
+  background-color: transparent;
+}
+
+.linkedin:visited {
+  color: #0e76a8;
+  background-color: transparent;
+}
+
+.linkedin:hover {
+  color: black;
+  background-color: transparent;
+}
+
+/*Section Titles*/
+.SectionHeader {
+  color: white;
+  background-color: #a70000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 20px 0px 10px 0px;
+  width: 100%;
+  min-width: 300px;
+  padding-left: 10px;
+}
+
+/*Job Titles*/
+.JobTitle {
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+/*Job Organization*/
+.Organization {
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+/*Job Dates*/
+.Date {
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 3px 0px 0px 0px;
+}
+/*Descriptions*/
+.Description {
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  margin: 10px 0px 0px 0px;
+}
+
+p {
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  margin: 0 auto;
+}
+
+/*Education and Skills Descriptions*/
+ul {
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#Degrees {
+  margin: 5px 0px 0px 0px;
+}
+
+#Do {
+  margin: 5px 0px 0px 0px;
+}
+
+#resume {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  top: -200px;
+}

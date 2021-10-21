@@ -1,3 +1,40 @@
+/*SideNav*/
+.dropdown {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.sidenav {
+  position: fixed;
+}
+
+.references {
+  display: none;
+  position: fixed;
+  background-color: silver;
+}
+
+/* Links Inside the SideNav */
+.references a {
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+.sidenav:hover .references{
+  display: block;
+}
+.references a:hover {
+  background-color: black;
+  color: white;
+}
+
+hr {
+  width: 30px;
+}
+
 /*Main Essay*/
 #content {
   max-width: 900px;

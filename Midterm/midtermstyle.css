@@ -37,6 +37,31 @@ hr {
 
 /*Main Essay*/
 #content {
-  max-width: 900px;
+  max-width: 800px;
   margin: auto;
+}
+
+#headline {
+  font-family: "papyrus";
+  font-size: 40px;
+  margin: 0;
+}
+
+#byline {
+  font-family: serif;
+  font-size: 15px;
+  font-style: italic;
+  margin: 0;
+}
+
+#date {
+  font-family: serif;
+  font-size: 10px;
+  font-style: italic;
+  margin: 0;
+}
+
+p {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 12px;
 }

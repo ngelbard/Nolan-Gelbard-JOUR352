@@ -19,73 +19,70 @@ Questions
 
 1.  In the sentence below, put in the necessary code that would allow users to click on the word Google and open Google's homepage in a new browser:
 
-Google is the best search engine in the world.
+<a href="https://www.google.com/" target="_blank">Google</a> is the best search engine in the world.
 
 
 
 
 2.  Describe the purpose of a DIV tag.
 
-
+The DIV tag defines a division or section of the code. If is often used as a container to then style with CSS. Any sort of content can be put in a DIV tag.
 
 
 3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position.  (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
 
-
-
-
-
-
-
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+  </head>
+    <body>
+    </body>
+</html>
 
 
 
 4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a link to a stylesheet?
 
-
+Directly underneath the opening <head> tag. Or, simply put, of the two main "areas" inside the <head> section.
 
 5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
 
-
+Inside of the <body> section.
 
 6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
 
+<div class="graphicbox"></div>
 
-
-
-
-
+<div id="name"></div>
 
 
 7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
 
-
+<div id="apples" class="fruit"></div>
 
 
 
 8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
 
-
-
-
-
-
+.fruit {
+  color: #000000;
+}
 
 
 9.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
 
-
+<img>
 
 
 10.  Why do we use media queries?
 
-
+Media queries allow for us to define different style rules for different devices. It targets different width and heights, or different orientations, to tailor the style sheet accordingly.
 
 
 11. What is the main difference between a serif and a sans-serif font?
 
-
+Serif fonts contain small strokes at the edges of each letter, while sans-serif fonts have clean lines. Serif is more elegant, sans-serif is more minimalist.
 
 
 12. Which of the following is a hexadecimal code?
@@ -93,3 +90,5 @@ Google is the best search engine in the world.
 123,543,242
 101010101
 -213
+
+The first option is a hexadecimal code: #FFCC33

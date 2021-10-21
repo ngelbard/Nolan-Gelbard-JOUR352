@@ -46,9 +46,11 @@ The DIV tag defines a division or section of the code. If is often used as a con
 
 Directly underneath the opening <head> tag. Or, simply put, of the two main "areas" inside the <head> section.
 
+
 5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
 
 Inside of the <body> section.
+
 
 6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
 

@@ -34,6 +34,7 @@
   color: white;
 }
 
+/*Page Topper*/
 .topper {
   width: 100%;
 
@@ -45,6 +46,7 @@
   margin: auto;
 }
 
+/*Headline*/
 #headline {
   font-family: "papyrus";
   font-size: 50px;
@@ -52,6 +54,7 @@
   padding-top: 20px;
 }
 
+/*Who wrote the story*/
 #byline {
   font-family: serif;
   font-size: 15px;
@@ -59,12 +62,14 @@
   margin: 0;
 }
 
+/*Date the story was written*/
 #date {
   font-family: serif;
   font-size: 10px;
   font-style: italic;
 }
 
+/*captions underneath photos*/
 .caption {
   font-family: serif;
   font-size: 10px;
@@ -72,6 +77,7 @@
   text-align: center;
 }
 
+/*To get a photo to wrap text to the left*/
 .float-left {
   float: left;
   width: 30%;
@@ -81,6 +87,7 @@
   border: 0;
 }
 
+/*To get a photo to wrap text to the right*/
 .float-right {
   float: right;
   width: 30%;
@@ -90,11 +97,13 @@
   border: 0;
 }
 
+/*main essay words*/
 p {
   font-family: "Helvetica", Arial, sans-serif;
   font-size: 12px;
 }
 
+/*subheadings*/
 h2 {
   font-family: serif;
   font-weight: bold;
@@ -123,15 +132,17 @@ h4 {
   font-size: 1.5em;
 }
 
+/*article links text*/
 .col-6 {
   text-align: center;
 }
 
+/*Red background on left and right*/
 .col-2 {
   background-color: hsl(0,100%,50%,0.75);
 }
 
+/*Blue Background in center*/
 .col-8 {
   background-color: hsl(240,100%,50%,0.25);
-
 }

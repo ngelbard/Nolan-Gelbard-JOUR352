@@ -1,11 +1,12 @@
 /*SideNav*/
 .dropdown {
-  background-color: red;
+  background-color: blue;
   color: white;
   padding: 10px;
-  font-size: 20px;
+  font-size: 30px;
   font-family: serif;
   font-weight: bold;
+  margin: 10px;
 }
 
 .sidenav {
@@ -33,20 +34,22 @@
   color: white;
 }
 
-hr {
+.topper {
+  width: 100%;
 
 }
 
 /*Main Essay*/
 #content {
-  max-width: 800px;
+  max-width: 80%;
   margin: auto;
 }
 
 #headline {
   font-family: "papyrus";
-  font-size: 40px;
+  font-size: 50px;
   margin: 0;
+  padding-top: 20px;
 }
 
 #byline {
@@ -60,7 +63,6 @@ hr {
   font-family: serif;
   font-size: 10px;
   font-style: italic;
-  margin: 0;
 }
 
 .caption {
@@ -96,6 +98,7 @@ p {
 h2 {
   font-family: serif;
   font-weight: bold;
+  padding-top: 25px;
 }
 
 /*Blockquote*/
@@ -122,4 +125,13 @@ h4 {
 
 .col-6 {
   text-align: center;
+}
+
+.col-2 {
+  background-color: hsl(0,100%,50%,0.75);
+}
+
+.col-8 {
+  background-color: hsl(240,100%,50%,0.25);
+
 }

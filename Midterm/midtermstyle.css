@@ -146,3 +146,11 @@ h4 {
 .col-8 {
   background-color: hsl(240,100%,50%,0.25);
 }
+
+.link {
+  color: black;
+}
+
+.link:hover {
+  color: red;
+}

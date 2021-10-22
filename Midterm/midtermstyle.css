@@ -116,7 +116,7 @@ blockquote {
   color: #161674;
   font-style: italic;
   text-align: center;
-  min-width: 600px;
+  max-width: 600px;
   width: 65%;
   margin: 0 auto !important;
 }

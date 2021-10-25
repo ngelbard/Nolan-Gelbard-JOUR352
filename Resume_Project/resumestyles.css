@@ -76,7 +76,7 @@ hr {
   top: -200px;
 }
 
-.git:link {
+.git:visited {
   color: black;
   background-color: transparent;
 }

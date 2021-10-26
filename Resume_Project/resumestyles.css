@@ -1,8 +1,29 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
 /*Page Topper*/
 .masthead {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -52,10 +73,11 @@ hr {
   max-width: 400px;
   display: block;
   position: relative;
+  margin-top: 5px;
 }
 .avatar-section {
     border-radius: 50%;
-    border: 10px solid white;
+    border: 5px solid white;
     width: 100%;
     display: block;
     margin: auto;
@@ -171,4 +193,23 @@ ul {
   position: relative;
   display: block;
   margin: 0 auto;
+}
+
+.about {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #a70000;
+  color: white;
+  font-size: 2vw;
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+  font-family: garamound;
+  padding: 25px;
+  border-radius: 70%;
+}
+
+.about-description {
+  text-align: center;
+  padding-top: 50px;
 }

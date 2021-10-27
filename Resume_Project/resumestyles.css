@@ -86,7 +86,7 @@ hr {
 #gradient {
   height: 100%;
   background-color: #e3d164; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#fce775, #7a751d);
+  background-image: linear-gradient(#fce775, #aca23f);
 }
 
 .bi {

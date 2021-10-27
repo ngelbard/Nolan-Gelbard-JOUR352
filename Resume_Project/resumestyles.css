@@ -193,8 +193,14 @@ ul {
   position: relative;
   display: block;
   margin: 0 auto;
+  max-width: 900px;
 }
 
+#about {
+  z-index: 1;
+  top: -150px;
+  position: relative;
+}
 .about {
   text-transform: uppercase;
   text-align: center;
@@ -202,11 +208,11 @@ ul {
   color: white;
   font-size: 2vw;
   width: 40%;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 50px;
   font-family: garamound;
   padding: 25px;
-  border-radius: 70%;
+  border-radius: 80%;
 }
 
 .about-description {

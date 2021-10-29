@@ -1,0 +1,65 @@
+/*Main Container*/
+#content {
+  max-width: 80%;
+  margin: auto;
+}
+
+/*Headline*/
+#headline {
+  font-family: "papyrus";
+  font-size: 50px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+/*Who wrote the story*/
+#byline {
+  font-family: serif;
+  font-size: 15px;
+  font-style: italic;
+  margin: 0;
+}
+
+/*Date the story was written*/
+#date {
+  font-family: serif;
+  font-size: 10px;
+  font-style: italic;
+}
+
+/*Chapter Headline*/
+h2 {
+  font-family: serif;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+/*Main Text*/
+p {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+}
+
+img {
+  margin: auto;
+  display: block;
+}
+
+/*captions underneath photos*/
+.caption {
+  font-family: serif;
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  font-family: serif;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}

@@ -28,7 +28,7 @@ p{
 .byline {
   font-size:.75em;
   text-transform: uppercase;
-  font-style: italic;
+  font-style: oblique;
   margin-top:-10px;
   font-family: 'Montserrat', sans-serif;
 
@@ -36,7 +36,7 @@ p{
 
 .chapter-head {
   font-size:2em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'impact', sans-serif;
   padding-top:20px;
   font-weight:700;
 }
@@ -110,17 +110,39 @@ p{
   padding-top: 10px;
   margin: 0 auto;
   font-size: 6em;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Palatino', serif;
   padding-bottom: 10px;
   color: #fff;
+  font-weight: bold;
 }
 
 .hero-sub {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'times', sans-serif;
   font-size: .25em;
+  font-weight: normal;
 }
 
-@media(max-width:550px) {
+.underlay {
+  position: absolute;
+  left: 45%;
+  width: 10%;
+  top: 60%;
+  background: black;
+  opacity: .7;
+}
+
+.below-hero {
+  margin: 0 auto;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.arrow {
+  width: 30px;
+}
+
+@media(max-width:810px) {
   p {
     padding-left:20px;
     padding-right:10px;
@@ -136,5 +158,13 @@ p{
 
   .hero-head {
     font-size: 1.5em;
+  }
+
+  .below-hero {
+    font-size: .25em;
+  }
+
+  .arrow {
+    width: 15px;
   }
 }

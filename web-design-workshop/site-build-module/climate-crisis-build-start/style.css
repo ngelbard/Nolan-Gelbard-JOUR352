@@ -12,6 +12,11 @@ p{
   line-height:180%;
 }
 
+li {
+  text-align: left;
+  padding: 5px;
+}
+
 .navbar {
   font-family: 'Montserrat', sans-serif;
 
@@ -46,16 +51,15 @@ p{
   max-width:900px;
   margin:0 auto;
   padding-top:30px;
-  height:100%;
 }
 
 .caption {
   width:100%;
-  max-width:900px;
   margin:0 auto;
   padding-bottom:30px;
   font-family: 'Montserrat', sans-serif;
   color:#999;
+  text-align: left;
 }
 
 .footer {
@@ -142,6 +146,43 @@ p{
   width: 30px;
 }
 
+#sidebar {
+  border-style: outset;
+  border-color: red;
+}
+.sidebar {
+  color: #B50000;
+  font-size:1.75em;
+  font-family: 'helvetica', sans-serif;
+  padding-top:20px;
+  font-weight:700;
+  margin: 0;
+}
+
+.pull-out {
+  font-family: 'helvetica', sans-serif;
+  font-size: .75em;
+}
+
+blockquote {
+  font-size: 3em;
+  color: #B50000;
+  font-family: 'Bookman', serif;
+  font-style: italic;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
+
 @media(max-width:810px) {
   p {
     padding-left:20px;
@@ -166,5 +207,17 @@ p{
 
   .arrow {
     width: 15px;
+  }
+
+  .sidebar {
+    font-size: 1.25em;
+  }
+
+  .caption {
+    font-size: .75em;
+  }
+
+  blockquote {
+    font-size: 1.5em;
   }
 }

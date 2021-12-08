@@ -91,3 +91,10 @@ li a:hover:not(.active) {
   max-width: 80%;
   margin: auto;
 }
+
+h1 {
+  font-family: 'Impact', serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3em;
+}

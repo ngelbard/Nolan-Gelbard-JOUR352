@@ -117,6 +117,41 @@ figcaption {
   font-size: 12px;
 }
 
+/**Block Quote**/
+blockquote {
+  font-size: 1.5em;
+  width: 80%;
+  margin: 50px auto;
+  padding: 10px 0px 10px 75px;
+  border-left: 8px solid #FFC20E;
+  position: relative;
+  background:#EDEDED;
+  color: #0080C6;
+  font-family: 'fondamento', cursive;
+}
+
+blockquote::before{
+  content: "\201C";
+  color:#FFC20E;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 3px;
+  font-family: 'Prata', serif;
+}
+
 @media(max-width:1210px) {
   li a{
     padding: 7px 25px;

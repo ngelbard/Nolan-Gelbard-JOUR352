@@ -127,7 +127,7 @@ blockquote {
   position: relative;
   background:#EDEDED;
   color: #0080C6;
-  font-family: 'fondamento', cursive;
+  font-family: 'fondamento', serif;
 }
 
 blockquote::before{
